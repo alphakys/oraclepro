@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class PhoneApp {
 
+
+
 	public static void main(String[] args) {
 				
 		Scanner sc = new Scanner(System.in);
@@ -23,6 +25,7 @@ public class PhoneApp {
 		
 		while(run) {
 			//시작화면 디스플레이
+			
 			
 			System.out.println("**************************************");
 			System.out.println("*                   전화번호 관리 프로그램              *");
@@ -102,33 +105,15 @@ public class PhoneApp {
 								
 								run = false;
 								break;
-			default: 		System.out.println("[다시 입력해주세요]");				
 			
+			default: 		System.out.println("[다시 입력해주세요]");				
+								break;
 			
 			}
 			
 		}
-		
-		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+	
 	}
-
+	
+	
 }

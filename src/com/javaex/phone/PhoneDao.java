@@ -18,8 +18,9 @@ public class PhoneDao {
 			ResultSet rs = null;
 			
 			//connection 관련
-			String driver = "oracle.jdbc.driver.OracleDriver";
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			private String driver = "oracle.jdbc.driver.OracleDriver";
+			private String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			
 			private String id = "phonedb";
 			private String pw = "phonedb";
 			
@@ -255,16 +256,6 @@ public class PhoneDao {
 			
 			return pList;	
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 }
